@@ -1,0 +1,113 @@
+Currently notes of how the guide might be organised + some weird to-do I guess
+
+* The Basics
+    * About Twine and Harlowe
+        -> Prob can be a repeat from the SugarCube with edits for Harlowe 
+    * Starting with Harlowe 
+        * The Elements on the Page 
+            -> Pretty simple: main page + sidebar + header/footer (and how you can have more than one of those!!)
+        * Linking Passages
+            -> the basics [[ Link ]] Markup only I think here 
+            -> I think I need to do the click macro here too...
+        * The Basics of variables 
+            -> different kinds?
+        * Tracking Information
+            -> the set macro inside the passage
+        * Display Variation 
+            -> the if macro (maybe unless too?)
+        * Basic Demo (same as SugarCube tbh)
+* The Basics+
+    * Harlowe Markup and Basic Styling
+        * Basic Text Styling 
+        * (there's no Markup for images, but need to test the image macro)
+        * Showing the Value for a Variable?
+        * Removing Line-Breaks
+        * The Macro Markup (how do you see how it looks + the hook? or maybe hook as separate)
+    * Going Further with the Basics 
+        * Setting and Changing Variables (incl.arrays?)
+        * Display Variables / Print Macro
+        * Tracking choices?
+        * Definitely the click macro here if it's not earlier and maybe the goto?
+        * The Elseif/else and unless here as well + the quirky if/hook and else-duplicate 
+        * Use Variables in links?
+    * Adding some Interactivity 
+        * Checkbox (no radio button)
+        * Cycling/Sequence 
+        * Dropdown
+        * Player input (input/box + force)
+        * Prep/App/Replace link (link or click?)
+    * Special Passages/Tag
+        * header/footer
+            -> need to remember it goes in a special order + can be combined (the div opened in one, closing in the next) 
+        * startup
+        * do I want to include the sidebar icons?
+            -> if so the counter too? or we add it along with the meter?
+    * Notes about JavaScript + StyleSheet 
+        -> focus on special macros to interact with the interface so you don't have to + Harlowe was built not to use JavaScript-ish 
+    * General notes on URLs for Assets/Testing
+        -> but then I need to include images somewhere here?
+* Intermediate use
+    * Unless I missed something, no more markup here? Maybe the special names to Absolutely not use?
+    * Any interactive macros I forgot but I think all are above.
+        * NO THERE'S THE TIMER/LIVE 
+        * maybe transition macro here too (at minimum the typing equivalent)
+            -> might as well have the animated shit here too
+        * all the links/click not included before 
+            -> fml there are so many, it's NOT CONFUSING AT ALL
+    * Probably the whole storylet section here?
+        -> need to test it 
+    * Are there moe macro of convenience? Goto I think will be covered before, maybe back.return through the icons I guess? 
+        * OH OF COURSE THE DISPLAY
+        * Arbitrary long return (except just forward? or is the back doable :thinking:)
+        * I don't think there is a do/redo, but there might be hook shit still 
+        * do we want to use JavaScript here? it's not technically a macro 
+    * Definitely a long chapter on all the styling stuff (though it might not be Intermediate :thinking:)
+    * Changing how the interface look, however should be here
+        * with the tags/stylesheet I think + how things are overriden
+        * the tip with the footer/header should probably be here instead 
+        * as well as the script to move where the sidebar is (or remove it altogether)
+            -> in general, adding stuff to the sidebar
+    * Maybe the whole array section should be here 
+    * there are also a bunch of math-related macros
+    * Custom code/Macro
+        * Like HAL for the sound 
+        * The Save system?
+    * Just styling in general 
+        * Meter??? (it's more for stats imo not really interactivity)
+            -> and the counter?
+        * the whole list of elements that can be targetted 
+        * there should be somewhere a section about how the HTML looks and it's a mess (SOB)
+        * Importing fonts for sure 
+        * maybe root/css var (general CSS)
+        * for sure media (especially if changed the interface)
+        * Do I want to bother with animations when there a whole transition macro? 
+        * Create a loading page?
+        * Def Accessibility here then
+
+Dang unsetting variables: https://www.reddit.com/r/twinegames/comments/1hov4fr/how_to_destroy_variables/
+
+Would be nice to find a nobr version for Harlowe somewhere, the formatting is a bit broked
+
+There should be a whole section on the data map
+
+Maybe looking up if there are templates like Sugar Cube
+Special hook names somewhere too
+
+Dunno where to put the pop ups (intermediate?) also give an non Harlowe alternative?
+
+Maybe include a Save/Setting section (save for sure, since there are macros) -  will be a repeat of the template but eh I guess
+
+Overriding Navigation -> goto in a header
+
+Need to figure out the APIs, if there are any to begin with
+
+Localisation needs to be a section as well, I don't think there's code like TME but we can see 
+
+Testing and debugging, maybe in the Basics? Def in Intermediate 
+
+Advanced:
+    Making your own macro 
+    For/Loops 
+    The rest that wasn't covered by the rest (prob more array shit )
+And whatever APIS there is I guess?
+Dunno when'/if I'll get there
